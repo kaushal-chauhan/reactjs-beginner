@@ -5,6 +5,7 @@ import ClassComp from "./components/ClassComp"
 import PropsWithFunc from "./components/PropsWithFunc"
 import PropsWithClass from "./components/PropsWithClass"
 import ClasswithState from "./components/ClasswithState"
+import InputBox from "./components/QtyBox/InputBox"
 
 function App() {
   return (
@@ -12,13 +13,16 @@ function App() {
       <header className="App-header">
         {/* <PropsWithFunc logo={logo} logoalt="React Js">
           Test Children props
-        </PropsWithFunc> */}
-        {/* <PropsWithClass logo={logo} logoalt="React Js">
+        </PropsWithFunc>
+        <PropsWithClass logo={logo} logoalt="React Js">
           Test Children props
         </PropsWithClass> */}
-        <FunctionalComp />
+        {/* <FunctionalComp />
         <ClassComp />
-        <ClasswithState />
+        <ClasswithState /> */}
+        <InputBox />
+        <InputBox />
+        <InputBox />
       </header>
     </div>
   );
