@@ -7,6 +7,7 @@ import PropsWithClass from "./components/PropsWithClass"
 import ClasswithState from "./components/ClasswithState"
 import InputBox from "./components/QtyBox/InputBox"
 import ConditionalRendering from "./components/ConditionalRendering"
+import ProductListing from "./components/ProductListing"
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
         {/* <InputBox />
         <InputBox />
         <InputBox /> */}
-        <ConditionalRendering />
+        {/* <ConditionalRendering /> */}
+        <ProductListing />
       </header>
     </div>
   );
