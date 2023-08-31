@@ -6,6 +6,7 @@ import PropsWithFunc from "./components/PropsWithFunc"
 import PropsWithClass from "./components/PropsWithClass"
 import ClasswithState from "./components/ClasswithState"
 import InputBox from "./components/QtyBox/InputBox"
+import ConditionalRendering from "./components/ConditionalRendering"
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
         {/* <FunctionalComp />
         <ClassComp />
         <ClasswithState /> */}
+        {/* <InputBox />
         <InputBox />
-        <InputBox />
-        <InputBox />
+        <InputBox /> */}
+        <ConditionalRendering />
       </header>
     </div>
   );
