@@ -12,6 +12,11 @@ import StylesElement from "./components/StylesElement"
 import Formelement from "./components/Formelement"
 import ClassLifeCycle from "./components/ClassLifeCycle"
 import FragmentTest from './components/FragmentTest';
+import PureComp from "./components/PureComponentTest/PureComp"
+import NormalComp from "./components/PureComponentTest/NormalComp"
+import ReactMemoTest from "./components/ReactMemoTest/Parent"
+import ReactRefsTest from "./components/ReactRefsTest"
+import ForwardRefTest from "./components/ForwardRefTest"
 
 function App() {
   return (
@@ -34,7 +39,12 @@ function App() {
         {/* <StylesElement /> */}
         {/* <Formelement /> */}
         {/* <ClassLifeCycle /> */}
-        <FragmentTest />
+        {/* <FragmentTest /> */}
+        {/* <PureComp />
+        <NormalComp /> */}
+        {/* <ReactMemoTest /> */}
+        {/* <ReactRefsTest /> */}
+        <ForwardRefTest />
       </header>
     </div>
   );
