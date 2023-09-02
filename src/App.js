@@ -20,6 +20,8 @@ import ForwardRefTest from "./components/ForwardRefTest"
 import PortalTest from "./components/PortalTest"
 import ErrorBoundary from "./components/ErrorBoundary"
 import TestError from "./components/TestError"
+import HoverCounter from "./components/HigherOrderComponents/HoverCounter"
+import ClickCounter from "./components/HigherOrderComponents/ClickCounter"
 
 function App() {
   return (
@@ -49,12 +51,14 @@ function App() {
         {/* <ReactRefsTest /> */}
         {/* <ForwardRefTest /> */}
         {/* <PortalTest /> */}
-        <ErrorBoundary>
+        {/* <ErrorBoundary>
           <TestError />
         </ErrorBoundary>
         <ErrorBoundary>
           <TestError hasError="1"/>
-        </ErrorBoundary>
+        </ErrorBoundary> */}
+        <HoverCounter title="Test-11"/>
+        <ClickCounter />
       </header>
     </div>
   );
