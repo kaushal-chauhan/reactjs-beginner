@@ -22,6 +22,9 @@ import ErrorBoundary from "./components/ErrorBoundary"
 import TestError from "./components/TestError"
 import HoverCounter from "./components/HigherOrderComponents/HoverCounter"
 import ClickCounter from "./components/HigherOrderComponents/ClickCounter"
+import RenderProps from "./components/RenderProps/RenderProps"
+import RPropsHoverCounter from "./components/RenderProps/HoverCounter"
+import RPropsClickCounter from "./components/RenderProps/ClickCounter"
 
 function App() {
   return (
@@ -57,8 +60,10 @@ function App() {
         <ErrorBoundary>
           <TestError hasError="1"/>
         </ErrorBoundary> */}
-        <HoverCounter title="Test-11"/>
-        <ClickCounter />
+        {/* <HoverCounter title="Test-11"/>
+        <ClickCounter /> */}
+        <RenderProps render={(count, clickEvent) => <RPropsHoverCounter count={count} clickEvent={clickEvent}/>}/>
+        <RenderProps render={(count, clickEvent) => <RPropsClickCounter count={count} clickEvent={clickEvent}/>}/>
       </header>
     </div>
   );
