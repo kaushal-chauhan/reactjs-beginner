@@ -10,6 +10,8 @@ import ConditionalRendering from "./components/ConditionalRendering"
 import ProductListing from "./components/ProductListing"
 import StylesElement from "./components/StylesElement"
 import Formelement from "./components/Formelement"
+import ClassLifeCycle from "./components/ClassLifeCycle"
+import FragmentTest from './components/FragmentTest';
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
         {/* <ConditionalRendering /> */}
         {/* <ProductListing /> */}
         {/* <StylesElement /> */}
-        <Formelement />
+        {/* <Formelement /> */}
+        {/* <ClassLifeCycle /> */}
+        <FragmentTest />
       </header>
     </div>
   );
