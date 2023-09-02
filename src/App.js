@@ -8,6 +8,8 @@ import ClasswithState from "./components/ClasswithState"
 import InputBox from "./components/QtyBox/InputBox"
 import ConditionalRendering from "./components/ConditionalRendering"
 import ProductListing from "./components/ProductListing"
+import StylesElement from "./components/StylesElement"
+import Formelement from "./components/Formelement"
 
 function App() {
   return (
@@ -26,7 +28,9 @@ function App() {
         <InputBox />
         <InputBox /> */}
         {/* <ConditionalRendering /> */}
-        <ProductListing />
+        {/* <ProductListing /> */}
+        {/* <StylesElement /> */}
+        <Formelement />
       </header>
     </div>
   );
