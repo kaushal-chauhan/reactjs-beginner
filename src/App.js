@@ -27,6 +27,7 @@ import RPropsHoverCounter from "./components/RenderProps/HoverCounter"
 import RPropsClickCounter from "./components/RenderProps/ClickCounter"
 import { UserProvider } from "./components/Context/userContext"
 import ComponentA from "./components/Context/ComponentA"
+import FetchData from "./components/FetchData"
 
 function App() {
   return (
@@ -66,12 +67,13 @@ function App() {
         <ClickCounter /> */}
         {/* <RenderProps render={(count, clickEvent) => <RPropsHoverCounter count={count} clickEvent={clickEvent}/>}/>
         <RenderProps render={(count, clickEvent) => <RPropsClickCounter count={count} clickEvent={clickEvent}/>}/> */}
-        <UserProvider value="Kaushal">
+        {/* <UserProvider value="Kaushal">
           <ComponentA />
         </UserProvider>
         <UserProvider value="Kayra">
           <ComponentA />
-        </UserProvider>
+        </UserProvider> */}
+        <FetchData />
       </header>
     </div>
   );
